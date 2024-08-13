@@ -1,0 +1,38 @@
+.odin-recipes {
+  border: 5px outset blue;
+  background-color: lightcoral;
+  color: black;
+  text-align: center;
+}
+
+.recipes {
+  border: 5px outset red;
+  background-color: lightblue;
+  text-align: justify;
+  font-weight: bold;
+}
+
+.title {
+  border: 5px outset beige;
+  background-color: salmon;
+}
+
+.description {
+  border: 5px outset red;
+  background-color: lightblue;
+}
+
+.ingredients {
+  border: 5px outset darkkhaki;
+  background-color: pink;
+}
+
+.directions {
+  border: 5px outset black;
+  background-color: lightyellow;
+}
+
+.note {
+  border: 5px outset green;
+  background-color: lightgreen;
+}
