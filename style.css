@@ -1,8 +1,20 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
 .odin-recipes {
   border: 5px outset blue;
   background-color: lightcoral;
   color: black;
   text-align: center;
+  height: 50px;
+  width: 400px;
 }
 
 .recipes {
@@ -10,11 +22,15 @@
   background-color: lightblue;
   text-align: justify;
   font-weight: bold;
+  height: 90px;
+  width: 350px;
 }
 
 .title {
   border: 5px outset beige;
   background-color: salmon;
+  height: 50px;
+  width: 350px;
 }
 
 .description {
